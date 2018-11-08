@@ -1,12 +1,9 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Home = props => (
-    <div>
-        <p>Howdy from the stateless functional component home page.</p>
-        <Link href="/sell">
-            <a>Sell!</a>
-        </Link>
-    </div>
-)
+  <div>
+    <p>Howdy from the stateless functional component home page.</p>
+  </div>
+);
 
 export default Home;
